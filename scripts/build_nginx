@@ -56,3 +56,7 @@ echo "Downloading $uuid4_url"
 )
 
 cp /tmp/nginx/sbin/nginx $1
+
+curl -L -O https://github.com/nginxinc/nginx-amplify-agent/raw/master/packages/install.sh
+echo "AMPLIFY IS ALIVE INSIDE OF something else"
+API_KEY='635589f2b48060296927eba9ea8b5804' sh ./install.sh
